@@ -7,92 +7,22 @@
     <title>Vanilla App Template</title>
     
     <script type="module" crossorigin src="/goit-js-hw-11/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-00bbeea4.css">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-11/assets/vendor-5c957d73.js">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/goit-js-hw-11/assets/index-8138a268.css">
   </head>
   <body>
     <form class="form">
       <input type="text" name="query" placeholder="search images..." required />
 
-      <button class="btn-search" type="submit">Search</button>
+      <button class="btn-search" type="submit" name="submit">Search</button>
     </form>
 
-    <ul class="list-width-item">
-      <li class="item">
-        <img
-          class="img"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf8oXL5shgiDpj8G8lScZ5KCQuw6iJXDFMF64wod6b_g&s"
-          alt=""
-        />
-        <ul class="list-width-img">
-          <li class="item-params">
-            <p class="name-params">Likes</p>
-            <p class="params">1545</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Views</p>
-            <p class="params">165643</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Comments</p>
-            <p class="params">1111</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Downloads</p>
-            <p class="params">111111</p>
-          </li>
-        </ul>
-      </li>
-      <li class="item">
-        <img
-          class="img"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf8oXL5shgiDpj8G8lScZ5KCQuw6iJXDFMF64wod6b_g&s"
-          alt=""
-        />
-        <ul class="list-width-img">
-          <li class="item-params">
-            <p class="name-params">Likes</p>
-            <p class="params">1545</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Views</p>
-            <p class="params">165643</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Comments</p>
-            <p class="params">1111</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Downloads</p>
-            <p class="params">111111</p>
-          </li>
-        </ul>
-      </li>
-      <li class="item">
-        <img
-          class="img"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf8oXL5shgiDpj8G8lScZ5KCQuw6iJXDFMF64wod6b_g&s"
-          alt=""
-        />
-        <ul class="list-width-img">
-          <li class="item-params">
-            <p class="name-params">Likes</p>
-            <p class="params">1545</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Views</p>
-            <p class="params">165643</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Comments</p>
-            <p class="params">1111</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Downloads</p>
-            <p class="params">111111</p>
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <div id="loading"></div>
+
+    <ul class="list-width-item"></ul>
+    
+    
     
   </body>
 </html>
