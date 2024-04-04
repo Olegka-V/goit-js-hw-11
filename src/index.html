@@ -11,86 +11,14 @@
     <form class="form">
       <input type="text" name="query" placeholder="search images..." required />
 
-      <button class="btn-search" type="submit">Search</button>
+      <button class="btn-search" type="submit" name="submit">Search</button>
     </form>
 
-    <ul class="list-width-item">
-      <li class="item">
-        <img
-          class="img"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf8oXL5shgiDpj8G8lScZ5KCQuw6iJXDFMF64wod6b_g&s"
-          alt=""
-        />
-        <ul class="list-width-img">
-          <li class="item-params">
-            <p class="name-params">Likes</p>
-            <p class="params">1545</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Views</p>
-            <p class="params">165643</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Comments</p>
-            <p class="params">1111</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Downloads</p>
-            <p class="params">111111</p>
-          </li>
-        </ul>
-      </li>
-      <li class="item">
-        <img
-          class="img"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf8oXL5shgiDpj8G8lScZ5KCQuw6iJXDFMF64wod6b_g&s"
-          alt=""
-        />
-        <ul class="list-width-img">
-          <li class="item-params">
-            <p class="name-params">Likes</p>
-            <p class="params">1545</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Views</p>
-            <p class="params">165643</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Comments</p>
-            <p class="params">1111</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Downloads</p>
-            <p class="params">111111</p>
-          </li>
-        </ul>
-      </li>
-      <li class="item">
-        <img
-          class="img"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf8oXL5shgiDpj8G8lScZ5KCQuw6iJXDFMF64wod6b_g&s"
-          alt=""
-        />
-        <ul class="list-width-img">
-          <li class="item-params">
-            <p class="name-params">Likes</p>
-            <p class="params">1545</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Views</p>
-            <p class="params">165643</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Comments</p>
-            <p class="params">1111</p>
-          </li>
-          <li class="item-params">
-            <p class="name-params">Downloads</p>
-            <p class="params">111111</p>
-          </li>
-        </ul>
-      </li>
-    </ul>
+    <div id="loading"></div>
+
+    <ul class="list-width-item"></ul>
     <script type="module" src="./main.js"></script>
+    <script type="module" src="./js/pixabay-api.js"></script>
+    <script type="module" src="./js/render-functions.js"></script>
   </body>
 </html>
